@@ -1,0 +1,25 @@
+*{transition: all 0.5s ease-in-out;margin: 0px;}
+body{background: #bbf0ed;}
+.heading{background: #ff7fab;text-align: center;font-family: poppins;line-height: 20px;}
+.heading h1{line-height: 68px;font-size: 43px;color: #fff;text-shadow: 6px 2px #a07373}
+/*.heading h1:hover{transform: scale(0.9);color: #ff7fab;background: #fff;transition: 0.5s all ease-in-out;text-shadow: none;border-radius: 20px;}*/
+.heading h1:hover .heading{background: #fff;}
+
+
+.color-buttons ul{list-style: none;margin-top: 50px;}
+
+#playAgain{font-family: poppins;background: #eeacac;color: #fff;}
+#playAgain:hover{transform: scale(1.2);transition: all 0.5s ease-in-out;}
+
+#letsPlay{font-family: poppins;background: #b0ff5a;color: #fff;}
+#letsPlay:hover{transform: scale(1.2);transition: all 0.5s ease-in-out;}
+
+#easyBtn{font-family: poppins;background: #5ad9ff;color: #fff;}
+#easyBtn:hover{transform: scale(1.2);transition: all 0.5s ease-in-out;}
+
+#hardBtn{font-family: poppins;background: #ff6f90;color: #fff;}
+#hardBtn:hover{transform: scale(1.2);transition: all 0.5s ease-in-out;}
+
+
+.main-box{width: 60%;margin:80px auto;}
+.box{width: 24%;background: #fff;padding-bottom: 24%;border-radius: 30px;margin: 10px;float: left;}
